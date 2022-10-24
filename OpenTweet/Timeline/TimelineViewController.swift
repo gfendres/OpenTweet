@@ -10,9 +10,12 @@ import UIKit
 
 class TimelineViewController: UIViewController {
 
+    private let eventController: TimelineEventControlling
+    
     // MARK: - Init
     
-    init() {
+    init(eventController: TimelineEventControlling) {
+        self.eventController = eventController
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -25,7 +28,12 @@ class TimelineViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
         view.backgroundColor = UIColor.red
+        eventController.viewDidLoad()
 	}
-
 }
 
+extension TimelineViewController: TimelineViewing {
+    func show(timeline: [Post]) {
+        print(timeline)
+    }
+}

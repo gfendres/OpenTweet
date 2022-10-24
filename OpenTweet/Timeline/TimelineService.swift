@@ -12,7 +12,7 @@ struct ResponseData: Decodable {
     let timeline: [Post]
 }
 
-struct Post : Decodable {
+struct Post : Decodable, Equatable {
     let id: String
     let author: String
     let avatar: URL?

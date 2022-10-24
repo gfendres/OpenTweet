@@ -17,6 +17,8 @@
 		D1CD38502906D26A002F0A63 /* TimelineModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CD384F2906D26A002F0A63 /* TimelineModuleFactory.swift */; };
 		D1CD38522906D69D002F0A63 /* TimelineService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CD38512906D69D002F0A63 /* TimelineService.swift */; };
 		D1CD38552906DA3A002F0A63 /* TimelineServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CD38542906DA3A002F0A63 /* TimelineServiceTests.swift */; };
+		D1CD38572906E4BC002F0A63 /* TimelineEventController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CD38562906E4BC002F0A63 /* TimelineEventController.swift */; };
+		D1CD38592906E9C3002F0A63 /* TimelineEventControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CD38582906E9C3002F0A63 /* TimelineEventControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		D1CD384F2906D26A002F0A63 /* TimelineModuleFactory.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = TimelineModuleFactory.swift; sourceTree = "<group>"; tabWidth = 4; };
 		D1CD38512906D69D002F0A63 /* TimelineService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineService.swift; sourceTree = "<group>"; };
 		D1CD38542906DA3A002F0A63 /* TimelineServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineServiceTests.swift; sourceTree = "<group>"; };
+		D1CD38562906E4BC002F0A63 /* TimelineEventController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineEventController.swift; sourceTree = "<group>"; };
+		D1CD38582906E9C3002F0A63 /* TimelineEventControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineEventControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,7 @@
 				009C4C6D1D9F0CD600F0BC6C /* TimelineViewController.swift */,
 				D1CD384F2906D26A002F0A63 /* TimelineModuleFactory.swift */,
 				D1CD38512906D69D002F0A63 /* TimelineService.swift */,
+				D1CD38562906E4BC002F0A63 /* TimelineEventController.swift */,
 			);
 			path = Timeline;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				D1CD38542906DA3A002F0A63 /* TimelineServiceTests.swift */,
+				D1CD38582906E9C3002F0A63 /* TimelineEventControllerTests.swift */,
 			);
 			path = Timeline;
 			sourceTree = "<group>";
@@ -299,6 +305,7 @@
 			files = (
 				D1CD38522906D69D002F0A63 /* TimelineService.swift in Sources */,
 				009C4C6E1D9F0CD600F0BC6C /* TimelineViewController.swift in Sources */,
+				D1CD38572906E4BC002F0A63 /* TimelineEventController.swift in Sources */,
 				009C4C6C1D9F0CD600F0BC6C /* AppDelegate.swift in Sources */,
 				D1CD38502906D26A002F0A63 /* TimelineModuleFactory.swift in Sources */,
 			);
@@ -308,6 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1CD38592906E9C3002F0A63 /* TimelineEventControllerTests.swift in Sources */,
 				D1CD38552906DA3A002F0A63 /* TimelineServiceTests.swift in Sources */,
 				009C4C811D9F0CD600F0BC6C /* OpenTweetTests.swift in Sources */,
 			);
