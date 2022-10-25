@@ -14,7 +14,7 @@ class TimelineServiceTests: XCTestCase {
     private var subject: TimelineService!
     override func setUp() {
         super.setUp()
-        // Ideally we would set a new file for testing here, but for simplicity lets keep the same.
+        // Ideally we would set a new mock file for testing and would inject in the service, but for simplicity lets keep the same (timeline.json).
         subject = TimelineService()
     }
     
@@ -38,6 +38,11 @@ class TimelineServiceTests: XCTestCase {
     func test_fetchTimeline_decodesTheAvatar() {
         XCTAssertTrue(subject.fetchTimeline()[0].avatar?.absoluteString == "https://i.imgflip.com/ohrrn.jpg")
         XCTAssertTrue(subject.fetchTimeline()[1].avatar?.absoluteString == "https://avatars1.githubusercontent.com/u/536608?v=3&s=460")
+    }
+    
+    func test_fetchTimeline_noFileIsFound_shouldReturnAnEmptyArray() {
+        let timeline = TimelineService(fileName: "test").fetchTimeline()
+        XCTAssertTrue(timeline == [])
     }
     
 }
