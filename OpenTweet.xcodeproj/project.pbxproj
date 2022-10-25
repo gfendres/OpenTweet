@@ -31,13 +31,6 @@
 			remoteGlobalIDString = 009C4C671D9F0CD600F0BC6C;
 			remoteInfo = OpenTweet;
 		};
-		009C4C881D9F0CD600F0BC6C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 009C4C601D9F0CD600F0BC6C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 009C4C671D9F0CD600F0BC6C;
-			remoteInfo = OpenTweet;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -49,7 +42,6 @@
 		009C4C771D9F0CD600F0BC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		009C4C7C1D9F0CD600F0BC6C /* OpenTweetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenTweetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		009C4C821D9F0CD600F0BC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		009C4C871D9F0CD600F0BC6C /* OpenTweetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenTweetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		009C4C9A1D9F0D4100F0BC6C /* timeline.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timeline.json; sourceTree = "<group>"; };
 		009C4C9D1D9F104800F0BC6C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D19A01CB29084D44000313A3 /* UIImageView+Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Download.swift"; sourceTree = "<group>"; };
@@ -78,13 +70,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		009C4C841D9F0CD600F0BC6C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -104,7 +89,6 @@
 			children = (
 				009C4C681D9F0CD600F0BC6C /* OpenTweet.app */,
 				009C4C7C1D9F0CD600F0BC6C /* OpenTweetTests.xctest */,
-				009C4C871D9F0CD600F0BC6C /* OpenTweetUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -224,24 +208,6 @@
 			productReference = 009C4C7C1D9F0CD600F0BC6C /* OpenTweetTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		009C4C861D9F0CD600F0BC6C /* OpenTweetUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 009C4C961D9F0CD600F0BC6C /* Build configuration list for PBXNativeTarget "OpenTweetUITests" */;
-			buildPhases = (
-				009C4C831D9F0CD600F0BC6C /* Sources */,
-				009C4C841D9F0CD600F0BC6C /* Frameworks */,
-				009C4C851D9F0CD600F0BC6C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				009C4C891D9F0CD600F0BC6C /* PBXTargetDependency */,
-			);
-			name = OpenTweetUITests;
-			productName = OpenTweetUITests;
-			productReference = 009C4C871D9F0CD600F0BC6C /* OpenTweetUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -258,12 +224,6 @@
 						ProvisioningStyle = Automatic;
 					};
 					009C4C7B1D9F0CD600F0BC6C = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = QPU8QS3E62;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 009C4C671D9F0CD600F0BC6C;
-					};
-					009C4C861D9F0CD600F0BC6C = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = QPU8QS3E62;
 						ProvisioningStyle = Automatic;
@@ -286,7 +246,6 @@
 			targets = (
 				009C4C671D9F0CD600F0BC6C /* OpenTweet */,
 				009C4C7B1D9F0CD600F0BC6C /* OpenTweetTests */,
-				009C4C861D9F0CD600F0BC6C /* OpenTweetUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -303,13 +262,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		009C4C7A1D9F0CD600F0BC6C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		009C4C851D9F0CD600F0BC6C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -344,13 +296,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		009C4C831D9F0CD600F0BC6C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -358,11 +303,6 @@
 			isa = PBXTargetDependency;
 			target = 009C4C671D9F0CD600F0BC6C /* OpenTweet */;
 			targetProxy = 009C4C7D1D9F0CD600F0BC6C /* PBXContainerItemProxy */;
-		};
-		009C4C891D9F0CD600F0BC6C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 009C4C671D9F0CD600F0BC6C /* OpenTweet */;
-			targetProxy = 009C4C881D9F0CD600F0BC6C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -553,36 +493,6 @@
 			};
 			name = Release;
 		};
-		009C4C971D9F0CD600F0BC6C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = QPU8QS3E62;
-				INFOPLIST_FILE = OpenTweetUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.opentable.OpenTweetUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = OpenTweet;
-			};
-			name = Debug;
-		};
-		009C4C981D9F0CD600F0BC6C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = QPU8QS3E62;
-				INFOPLIST_FILE = OpenTweetUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.opentable.OpenTweetUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = OpenTweet;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -609,15 +519,6 @@
 			buildConfigurations = (
 				009C4C941D9F0CD600F0BC6C /* Debug */,
 				009C4C951D9F0CD600F0BC6C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		009C4C961D9F0CD600F0BC6C /* Build configuration list for PBXNativeTarget "OpenTweetUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				009C4C971D9F0CD600F0BC6C /* Debug */,
-				009C4C981D9F0CD600F0BC6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
