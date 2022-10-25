@@ -15,6 +15,7 @@
 		D19A01CC29084D44000313A3 /* UIImageView+Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19A01CB29084D44000313A3 /* UIImageView+Download.swift */; };
 		D19A01CE29084D5F000313A3 /* UIView+PinToView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19A01CD29084D5F000313A3 /* UIView+PinToView.swift */; };
 		D19A01D02908582F000313A3 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19A01CF2908582F000313A3 /* PostCell.swift */; };
+		D19A01D529085A8E000313A3 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19A01D429085A8E000313A3 /* Post.swift */; };
 		D1CD38502906D26A002F0A63 /* TimelineModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CD384F2906D26A002F0A63 /* TimelineModuleFactory.swift */; };
 		D1CD38522906D69D002F0A63 /* TimelineService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CD38512906D69D002F0A63 /* TimelineService.swift */; };
 		D1CD38552906DA3A002F0A63 /* TimelineServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CD38542906DA3A002F0A63 /* TimelineServiceTests.swift */; };
@@ -54,6 +55,7 @@
 		D19A01CB29084D44000313A3 /* UIImageView+Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Download.swift"; sourceTree = "<group>"; };
 		D19A01CD29084D5F000313A3 /* UIView+PinToView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+PinToView.swift"; sourceTree = "<group>"; };
 		D19A01CF2908582F000313A3 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		D19A01D429085A8E000313A3 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		D1CD384F2906D26A002F0A63 /* TimelineModuleFactory.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = TimelineModuleFactory.swift; sourceTree = "<group>"; tabWidth = 4; };
 		D1CD38512906D69D002F0A63 /* TimelineService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineService.swift; sourceTree = "<group>"; };
 		D1CD38542906DA3A002F0A63 /* TimelineServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineServiceTests.swift; sourceTree = "<group>"; };
@@ -151,7 +153,7 @@
 		D19A01D129085986000313A3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				D19A01CF2908582F000313A3 /* PostCell.swift */,
+				D19A01D429085A8E000313A3 /* Post.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -167,6 +169,7 @@
 		D1CD384E2906D23E002F0A63 /* Timeline */ = {
 			isa = PBXGroup;
 			children = (
+				D19A01CF2908582F000313A3 /* PostCell.swift */,
 				009C4C6D1D9F0CD600F0BC6C /* TimelineViewController.swift */,
 				D1CD384F2906D26A002F0A63 /* TimelineModuleFactory.swift */,
 				D1CD38562906E4BC002F0A63 /* TimelineEventController.swift */,
@@ -326,6 +329,7 @@
 				D1CD38572906E4BC002F0A63 /* TimelineEventController.swift in Sources */,
 				D19A01CE29084D5F000313A3 /* UIView+PinToView.swift in Sources */,
 				009C4C6C1D9F0CD600F0BC6C /* AppDelegate.swift in Sources */,
+				D19A01D529085A8E000313A3 /* Post.swift in Sources */,
 				D1CD38502906D26A002F0A63 /* TimelineModuleFactory.swift in Sources */,
 				D19A01D02908582F000313A3 /* PostCell.swift in Sources */,
 			);

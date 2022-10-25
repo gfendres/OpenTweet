@@ -8,19 +8,6 @@
 
 import Foundation
 
-struct ResponseData: Decodable {
-    let timeline: [Post]
-}
-
-struct Post : Decodable, Equatable {
-    let id: String
-    let author: String
-    let avatar: URL?
-    let content: String
-    let inReplyTo: String?
-    let date: Date
-}
-
 protocol TimelineServing {
     func fetchTimeline() -> [Post]
 }
