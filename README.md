@@ -8,8 +8,11 @@ OpenTweet
 * Usually I like to convert the model to a viewModel to remove unnecessary information to be passed to the view and to format what is needed. The idea is to have the view without any logic. I kept the same model for simplicity here.
 * The idea of an EventController is to receive events from the view. This way the view just communicates what is happen and becomes passive. The eventController and a possible Presenter are the ones who change the view.
 
-# Assignment
+## Images
 
+![ss](images/Screenshot.png)
+
+# Assignment
 
 Hi! Welcome to your iOS coding excercise.
 
@@ -44,7 +47,6 @@ Keep in mind that the repo is public, so forking and sending a pull request will
 
 You may use UIKit or SwiftUI for this exercise. The provided template uses UIKit, but if you would like to use SwiftUI, it may be simpler to create a new xcode project and submit that instead.
 
-
 Bonuses (in no particular order)
 --------------------------------
 
@@ -67,7 +69,7 @@ What the assignment will be judged on
 What the assignment will NOT be judged on
 -----------------------------------------
 
-* Visual design. This is a UI coding excercise, not a visual design excercise. 
+* Visual design. This is a UI coding excercise, not a visual design excercise.
 * UI performance (e.g. framerate), as long as it's reasonable. Feel free to indicate in the code if/why something would affect the framerate, and a potential solution to it.
 * If you try to complete a bonus and can't finish it, that's fine. I'd recommend using git commits/tags to indicate where the bonuses start in the history, so we can easily reset the branch at that commit and validate the minimum requirement.
 
