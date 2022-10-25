@@ -1,6 +1,16 @@
 OpenTweet
 =========
 
+# Developer notes
+
+* A bit overengineered for the use case, but I wanted to have some separation of concerns for it.
+* I probably would use SwiftUI and combine. It would reduce a lot the boilerplate code but since I have not been using it for a while I thought going for the what I remember the most is the best.
+* Usually I like to convert the model to a viewModel to remove unnecessary information to be passed to the view and to format what is needed. The idea is to have the view without any logic. I kept the same model for simplicity here.
+* The idea of an EventController is to receive events from the view. This way the view just communicates what is happen and becomes passive. The eventController and a possible Presenter are the ones who change the view.
+
+# Assignment
+
+
 Hi! Welcome to your iOS coding excercise.
 
 This is a very simple twitter like client. You'll find a json file under Data/ with a short tweet timeline. You are asked to write the app that will display the tweets, similar to what a Twitter client would do.
